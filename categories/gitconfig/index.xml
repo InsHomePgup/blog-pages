@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abraham's Blog</title><link>https://blog.inshomepgup.com/</link><description/><language>en-us</language><lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.inshomepgup.com/categories/gitconfig/index.xml" rel="self" type="application/rss+xml"/><item><title>git 全局配置：.gitconfig、.gitignore 与跨平台设置</title><link>https://blog.inshomepgup.com/p/git-config/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-config/</guid><description>&lt;p>在git初始化的时候可以进行一些配置。
+我在用的主要的配置有这两个文件。&lt;/p>
+&lt;h3 id="gitconfig">.gitconfig
+&lt;/h3>&lt;p>git 核心配置的部分。
+下面是我的常用配置,一次配置，以后可以一直使用，这个配置也可以添加到git去管理。
+这样在多设备的时候都可以使用这一套配置。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[core]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ignorecase = false
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> quotepath = false
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> excludesfile=C:/Users/user/.gitignore #指定全局的ignore的配置文件
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[user]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> email = email
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> name = name
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[alias]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ad = add
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> br = branch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> cc = checkout --
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> cf = config
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ck = checkout
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> cm = commit
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> cl = clone
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> df = diff
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> fe = fetch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ps = push
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> me = merge
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> pl = pull
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> sb = submodule
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ss = status
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> sw = switch
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> re = remote
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> unstage = reset HEAD
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> last = log -1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> lg = log --color --graph --pretty=format:&amp;#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&amp;lt;%an&amp;gt;%Creset&amp;#39; --abbrev-commit
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>alias 也可以配置一些复合命令，比如提交并推送一步到位：&lt;/p></description><category>gitConfig</category><category>git</category></item><item><title>SSH Key 生成、配置与连接</title><link>https://blog.inshomepgup.com/p/ssh-key/</link><pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/ssh-key/</guid><description>&lt;h3 id="参考文章">参考文章
+&lt;/h3>&lt;p>&lt;a class="link" href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank" rel="noopener"
+>github adding a new ssh key&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://manpages.debian.org/unstable/openssh-client/ssh_config.5.en.html" target="_blank" rel="noopener"
+>ssh key config&lt;/a>&lt;/p>
+&lt;h3 id="方法">方法
+&lt;/h3>&lt;p>与远程仓库的交互推荐通过 ssh 协议。还有一种token方式也可以，自行研究一下。&lt;/p>
+&lt;p>sshkey的方式是一个 public key 一个 private key。&lt;/p>
+&lt;p>一个在你的本地，一个在远程服务器上。&lt;/p>
+&lt;p>一个锁，一个钥匙。&lt;/p>
+&lt;p>一个钥匙打开你在互联网上所有的锁。&lt;/p>
+&lt;h2 id="一生成-ed25519-密钥">一、生成 Ed25519 密钥
+&lt;/h2>&lt;p>现在推荐使用 &lt;strong>Ed25519&lt;/strong> 算法生成密钥，相比传统的 RSA，它的密钥更短、性能更好、安全性也更高：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-keygen -t ed25519 -C &lt;span class="s2">&amp;#34;your_email@example.com&amp;#34;&lt;/span> -f &lt;span class="s2">&amp;#34;key_file_name&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 一个示例&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssh-keygen -t ed25519 -C &lt;span class="s2">&amp;#34;test@example.com&amp;#34;&lt;/span> -f &lt;span class="s2">&amp;#34;my_github_ed25519_key&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>&lt;code>-t ed25519&lt;/code>：指定密钥类型为 Ed25519&lt;/li>
+&lt;li>&lt;code>-C&lt;/code>：添加注释，通常填邮箱方便识别&lt;/li>
+&lt;li>&lt;code>-f&lt;/code>：自定义保存的文件名，方便按用途区分多把 key&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250226132710015.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>执行后会依次提示：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>保存路径&lt;/strong>：直接回车使用默认路径 &lt;code>~/.ssh/id_ed25519&lt;/code>，或者自定义一个路径&lt;/li>
+&lt;li>&lt;strong>passphrase（密钥口令）&lt;/strong>：不要密码就一直回车；要密码的话执行命令以后要输入两遍，之后每次用这把钥匙都要输入这个密码&lt;/li>
+&lt;/ul>
+&lt;p>一般会生成两个 key，一个没有密码一个有密码，取不同的文件名区分。&lt;/p>
+&lt;p>生成完成后会得到一对密钥：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>id_ed25519&lt;/code>（或自定义文件名）—— &lt;strong>私钥&lt;/strong>，就是你的钥匙，永远不要分享给任何人，也不要跨平台复制/共享，别公开到公网上——放到公网上就是谁都有你的钥匙，你的代码可以随意被人读取和修改&lt;/li>
+&lt;li>&lt;code>id_ed25519.pub&lt;/code>（或 &lt;code>xxx.pub&lt;/code>）—— &lt;strong>公钥&lt;/strong>，需要添加到 GitHub / GitLab 等平台&lt;/li>
+&lt;/ul>
+&lt;p>保存到你认为安全的位置，不管多少设备都可以用同一套 key。&lt;/p></description><category>gitConfig</category><category>git</category></item></channel></rss>
