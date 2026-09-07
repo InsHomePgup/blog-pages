@@ -28,4 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
             mainMenu.insertBefore(item, bottomSection);
         }
     });
+
+    // Scroll the current page number into view within the horizontally-scrollable
+    // pagination strip, so it isn't hidden off-screen when there are many pages.
+    const activePageItem = document.querySelector('.pagination-numbers .pagination-item.active');
+    if (activePageItem) {
+        activePageItem.scrollIntoView({ block: 'nearest', inline: 'center' });
+    }
 });
