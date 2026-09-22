@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abraham's Blog</title><link>https://blog.inshomepgup.com/</link><description/><language>en-us</language><lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.inshomepgup.com/post/life/health-system/diet/index.xml" rel="self" type="application/rss+xml"/><item><title>减肥01 一个程序员的身材自救</title><link>https://blog.inshomepgup.com/p/weight-loss/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/weight-loss/</guid><description>&lt;hugo-encrypt>
+&lt;div class="hugo-encrypt-wrapper">
 &lt;div id="hugo-encrypt-encryption-notice">
-&lt;p>本文内容已设置密码保护，请输入密码查看&lt;/p>
 &lt;noscript>&lt;span id="hugo-encrypt-enable-js">Javascript needs to be enabled to decrypt content&lt;/span>&lt;/noscript>
 &lt;div class='hugo-encrypt-form'>
 &lt;input
@@ -15,6 +15,7 @@ value='解锁'
 id="button" onclick="hugoDecrypt(document.getElementById('hugo-encrypt-password').value,'input')"
 />
 &lt;div id="hugo-encrypt-input-response">&lt;/div>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;cipher-text data-password='JirsIIhsaHMK13xf' style="display:none;">
@@ -179,8 +180,8 @@ hugoDecrypt(userStorage.getItem(storageKey), "storage");
 };
 &lt;/script>
 &lt;/hugo-encrypt></description><category>个人健康生活体系</category></item><item><title>减肥02 碳水、脂肪、蛋白质 和供能</title><link>https://blog.inshomepgup.com/p/diet-macros/</link><pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/diet-macros/</guid><description>&lt;hugo-encrypt>
+&lt;div class="hugo-encrypt-wrapper">
 &lt;div id="hugo-encrypt-encryption-notice">
-&lt;p>本文内容已设置密码保护，请输入密码查看&lt;/p>
 &lt;noscript>&lt;span id="hugo-encrypt-enable-js">Javascript needs to be enabled to decrypt content&lt;/span>&lt;/noscript>
 &lt;div class='hugo-encrypt-form'>
 &lt;input
@@ -195,6 +196,7 @@ value='解锁'
 id="button" onclick="hugoDecrypt(document.getElementById('hugo-encrypt-password').value,'input')"
 />
 &lt;div id="hugo-encrypt-input-response">&lt;/div>
+&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;cipher-text data-password='zZ4XmcGJKNPFfbGZ' style="display:none;">
