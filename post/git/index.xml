@@ -22,8 +22,7 @@ loading="lazy"
 &lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250216220926616.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>怎么样，这个字体还是舒服的吧哈哈哈&lt;/p></description></item><item><title>Flow</title><link>https://blog.inshomepgup.com/p/git-flow/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-flow/</guid><description>&lt;p>我的git 工作流。
-git 是版本控制系统 VCS (Version Control System)。&lt;/p></description><category>git</category><category>flow</category><category>git</category><category>flow</category></item><item><title>git gui推荐 - sublime merge</title><link>https://blog.inshomepgup.com/p/sublime-merge/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/sublime-merge/</guid><description>&lt;p>最早的时候写前端使用的是sublime text。现在这家的另外一个产品，git gui ，sublime merge也是挺好用的，看了一下许可证要$99，还是白嫖吧哈哈哈。&lt;/p>
+&lt;p>怎么样，这个字体还是舒服的吧哈哈哈&lt;/p></description></item><item><title>git gui推荐 - sublime merge</title><link>https://blog.inshomepgup.com/p/sublime-merge/</link><pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/sublime-merge/</guid><description>&lt;p>最早的时候写前端使用的是sublime text。现在这家的另外一个产品，git gui ，sublime merge也是挺好用的，看了一下许可证要$99，还是白嫖吧哈哈哈。&lt;/p>
 &lt;h2 id="add-commit-push">add commit push
 &lt;/h2>&lt;p>可以很方便的add 和commit,右上角push + pull
 &lt;img src="https://raw.githubusercontent.com/InsHomePgup/blog-reco/main/imgs/sublime.png"

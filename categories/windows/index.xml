@@ -33,9 +33,7 @@ loading="lazy"
 &lt;h4 id="解压到当前目录或者解压到一个文件夹内">解压到当前目录或者解压到一个文件夹内
 &lt;/h4>&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/Pasted%20image%2020250117174233.png"
 loading="lazy"
->&lt;/p></description><category>windows</category><category>windows</category><category>software</category></item><item><title>QRScan</title><link>https://blog.inshomepgup.com/programming/os/windows/qrscan/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/windows/qrscan/</guid><description>&lt;p>二维码识别&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/1357310795/QrCodeScanner" target="_blank" rel="noopener"
->https://github.com/1357310795/QrCodeScanner&lt;/a>&lt;/p></description><category>operating-system</category><category>windows</category></item><item><title>Win11初始化</title><link>https://blog.inshomepgup.com/programming/os/windows/win11%E5%88%9D%E5%A7%8B%E5%8C%96/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/windows/win11%E5%88%9D%E5%A7%8B%E5%8C%96/</guid><description>&lt;h3 id="windows-11-初始化设置">windows 11 初始化设置
+>&lt;/p></description><category>windows</category><category>windows</category><category>software</category></item><item><title>Win11初始化</title><link>https://blog.inshomepgup.com/programming/os/windows/win11%E5%88%9D%E5%A7%8B%E5%8C%96/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/windows/win11%E5%88%9D%E5%A7%8B%E5%8C%96/</guid><description>&lt;h3 id="windows-11-初始化设置">windows 11 初始化设置
 &lt;/h3>&lt;h3 id="恢复到win10-右键菜单">恢复到win10 右键菜单
 &lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -125,4 +123,20 @@ loading="lazy"
 &lt;/div>
 &lt;/div>&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250107100309905.png"
 loading="lazy"
->&lt;/p></description><category>operating-system</category><category>windows</category></item></channel></rss>
+>&lt;/p></description><category>operating-system</category><category>windows</category></item><item><title>windows 键相关的快捷键记录 win11</title><link>https://blog.inshomepgup.com/programming/os/windows/windows-%E9%94%AE%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95-win11/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/windows/windows-%E9%94%AE%E7%9B%B8%E5%85%B3%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95-win11/</guid><description>&lt;p>win + tab 在高刷屏下还不错的视图形式切换多窗口&lt;/p>
+&lt;p>win + A 打开快捷设置。&lt;/p>
+&lt;p>win + I 设置&lt;/p>
+&lt;p>win + E 我的电脑&lt;/p>
+&lt;p>win+ X 电脑菜单，用来打开控制中心之类的，设备管理等等。&lt;/p>
+&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20241230174706181.png" style="width:30%;">
+&lt;p>win + S search，快速搜索 win + P 也可以触发&lt;/p>
+&lt;p>win + P 多显示器管理&lt;/p>
+&lt;p>win + W 小组件，没软用。&lt;/p>
+&lt;p>win + R run ，现在用的很少了，我一般 run calc， run shutdown，run&amp;hellip;.run还是很好用的&lt;/p>
+&lt;p>win + T 选择快速启动栏，没软用&lt;/p>
+&lt;p>win + U 辅助功能，没软用&lt;/p>
+&lt;p>win + F feedback ，没软用&lt;/p>
+&lt;p>win + G 游戏功能&lt;/p>
+&lt;p>win + H 语音功能，没软用&lt;/p>
+&lt;p>win + L 锁屏，好用&lt;/p>
+&lt;p>win + Z 指定当前窗口形态，把鼠标炫富到最大化窗口那里那个按钮的效果&lt;/p></description><category>operating-system</category><category>windows</category></item></channel></rss>

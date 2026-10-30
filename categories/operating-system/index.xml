@@ -10,9 +10,7 @@
 &lt;/div>&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250113172621450.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>搜索，可能是虚拟机，没那么快。&lt;/p></description><category>operating-system</category><category>linux</category></item><item><title>QRScan</title><link>https://blog.inshomepgup.com/programming/os/windows/qrscan/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/windows/qrscan/</guid><description>&lt;p>二维码识别&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/1357310795/QrCodeScanner" target="_blank" rel="noopener"
->https://github.com/1357310795/QrCodeScanner&lt;/a>&lt;/p></description><category>operating-system</category><category>windows</category></item><item><title>SCP的使用</title><link>https://blog.inshomepgup.com/programming/os/linux/command/scp%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/linux/command/scp%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p>scp ./abc.txt &lt;a class="link" href="mailto:root@196.168.1.1" >root@196.168.1.1&lt;/a>:~/&lt;/p></description><category>operating-system</category><category>linux</category></item><item><title>SSH Key 连接</title><link>https://blog.inshomepgup.com/programming/os/linux/software/ssh/ssh-key-%E8%BF%9E%E6%8E%A5/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/linux/software/ssh/ssh-key-%E8%BF%9E%E6%8E%A5/</guid><description>&lt;p>[root@host .ssh]$ chmod 600 authorized_keys
+&lt;p>搜索，可能是虚拟机，没那么快。&lt;/p></description><category>operating-system</category><category>linux</category></item><item><title>SCP的使用</title><link>https://blog.inshomepgup.com/programming/os/linux/command/scp%E7%9A%84%E4%BD%BF%E7%94%A8/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/linux/command/scp%E7%9A%84%E4%BD%BF%E7%94%A8/</guid><description>&lt;p>scp ./abc.txt &lt;a class="link" href="mailto:root@196.168.1.1" >root@196.168.1.1&lt;/a>:~/&lt;/p></description><category>operating-system</category><category>linux</category></item><item><title>SSH Key 连接</title><link>https://blog.inshomepgup.com/programming/os/linux/software/ssh/ssh-key-%E8%BF%9E%E6%8E%A5/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/linux/software/ssh/ssh-key-%E8%BF%9E%E6%8E%A5/</guid><description>&lt;p>[root@host .ssh]$ chmod 600 authorized_keys
 [root@host .ssh]$ chmod 700 ~/.ssh&lt;/p>
 &lt;p>配置两个权限&lt;/p>
 &lt;p>authorized_keys 文件里面加入pub key&lt;/p>
@@ -73,4 +71,8 @@ x:解压缩 搭配 -C 指定输出目录&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;a class="link" href="https://juejin.cn/post/6904971490010398733" target="_blank" rel="noopener"
->tar的使用（掘金）&lt;/a>&lt;/p></description><category>operating-system</category><category>linux</category></item></channel></rss>
+>tar的使用（掘金）&lt;/a>&lt;/p></description><category>operating-system</category><category>linux</category></item><item><title>Version</title><link>https://blog.inshomepgup.com/programming/os/linux/fetch/version/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/programming/os/linux/fetch/version/</guid><description>&lt;p>那些用来查看版本信息的方式
+好看的界面去查看系统信息。
+apt install screenfetch
+apt install neofetch
+apt install fastfetch&lt;/p></description><category>operating-system</category><category>linux</category></item></channel></rss>

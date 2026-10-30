@@ -55,7 +55,7 @@ loading="lazy"
 &lt;p>可以随意使用，没有任何需要注意的。&lt;/p>
 &lt;p>早期我建议随时查看仓库的状态并且读取输出信息。&lt;/p>
 &lt;p>status包含很多我们需要关注的信息，所以最好多多查看。&lt;/p>
-&lt;p>初始化一个 git 仓库，git 仓库目前就是一个文件夹。&lt;/p></description><category>git</category><category>git</category></item><item><title>diff</title><link>https://blog.inshomepgup.com/p/git-diff/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-diff/</guid><description>&lt;p>比较一个文件不同的两个hash之间的版本对比&lt;/p></description><category>git</category></item><item><title>使用B分支的单个文件覆盖A分支的单个文件</title><link>https://blog.inshomepgup.com/p/git-checkout-file/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-checkout-file/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
+&lt;p>初始化一个 git 仓库，git 仓库目前就是一个文件夹。&lt;/p></description><category>git</category><category>git</category></item><item><title>使用B分支的单个文件覆盖A分支的单个文件</title><link>https://blog.inshomepgup.com/p/git-checkout-file/</link><pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-checkout-file/</guid><description>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;span class="lnt">2
@@ -69,4 +69,49 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git checkout [目标分支] [目标文件]
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description><category>git</category></item></channel></rss>
+&lt;/div></description><category>git</category></item><item><title>Git(2)--文件追踪与提交-add-commit</title><link>https://blog.inshomepgup.com/p/git-2-commit/</link><pubDate>Sun, 16 Feb 2025 00:00:00 +0000</pubDate><guid>https://blog.inshomepgup.com/p/git-2-commit/</guid><description>&lt;h2 id="前沿">前沿
+&lt;/h2>&lt;p>status + add + commit 是单机版git 最重要的三个命令。&lt;/p>
+&lt;p>在前面一节 Repo 当中，我们已经创建了一个 git仓库。&lt;/p>
+&lt;p>接下去我们让 git 来追踪我们的文件。&lt;/p>
+&lt;h2 id="操作区">操作区
+&lt;/h2>&lt;p>在目录下新建一个 abc.txt 文件模拟我们的代码文件。&lt;/p>
+&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250216223437670.png"
+loading="lazy"
+alt="|597x282"
+>&lt;/p>
+&lt;p>在 bash 中使用 git status&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">git status
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://raw.githubusercontent.com/InsHomePgup/pic_go_img/main/blog/20250216223557755.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>当前分支：main&lt;/p>
+&lt;p>没有历史 commit&lt;/p>
+&lt;p>未追踪的文件
+abc.txt&lt;/p>
+&lt;h3 id="文件追踪">文件追踪
+&lt;/h3>&lt;p>没有可以提交的文件但是有未添加到追踪的文件（使用 git add 去添加）&lt;/p>
+&lt;p>执行 add + commit 的丝滑小连招。&lt;/p>
+&lt;p>添加文件追踪的方式 git add&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 单文件添加 &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git add &lt;span class="o">[&lt;/span>文件名&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># 添加当前目录下所有没有被追踪的文件 . = 当前目录 .. = 上级目录&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git add .
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="提交我的修改---也就是项目的时间节点">提交我的修改 - 也就是项目的时间节点
+&lt;/h3>&lt;p>添加时间节点的方式 : git commit&lt;/p></description><category>git</category><category>git</category></item></channel></rss>
